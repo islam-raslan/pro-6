@@ -1,0 +1,40 @@
+.hed{
+    background-image: url(../imag/thorfhd.jpg);
+    background-attachment: local;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  height: 500px;
+}
+.thor img{
+    cursor: pointer;
+}
+.smallimg img{
+    width:100%;
+     height:100px;
+}
+
+@media (max-width:400px){
+.t{
+height: 20px;
+}
+.smallimg img{
+    width:20%;
+    height: 50px;
+
+}
+
+.hed{
+    background-image: url(../imag/thorfhd.jpg);
+    background-attachment: local;
+    background-repeat: no-repeat;
+    background-size: 100% 200px;
+    background-position: center;
+  height: 200px;
+  font-size: 5px;
+  font-weight: 900;
+
+}
+
+
+}
